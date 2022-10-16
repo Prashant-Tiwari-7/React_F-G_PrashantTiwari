@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import AddReviewForm from "../components/addReviewForm";
 import CustomerFeeds from "../components/customerFeeds";
 import SuccessMsg from "../components/successMsg";
-import styles from "./home.module.scss";
 const HomeContainer = () => {
   const [tab, setTab] = useState("form");
 
